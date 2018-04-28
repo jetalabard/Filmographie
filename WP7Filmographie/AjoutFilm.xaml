@@ -1,0 +1,56 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="WP7Filmographie.AjoutFilm"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+
+    mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True"
+    Loaded="load_ajoutFilms"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    >
+
+    <ScrollViewer Margin="12,0,12,0">
+        <!--LayoutRoot est la grille racine où tout le contenu de la page est placé-->
+        <Grid x:Name="LayoutRoot" Background="Transparent">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!--TitlePanel contient le nom de l'application et le titre de la page-->
+            <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+                <TextBlock x:Name="ApplicationTitle" Text="Filmographie" Style="{StaticResource PhoneTextNormalStyle}"/>
+                <TextBlock HorizontalAlignment="Center" x:Name="PageTitle" Text="Ajout Film" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="1">
+
+                <Viewbox>
+                    <Image Name="mImage"/>
+                </Viewbox>
+                <TextBox Text="Titre" GotFocus="gotFocusTitre" LostFocus="lostFocusTitre" Name="TextBoxtitre"></TextBox>
+                <TextBox Text="Résumé" GotFocus="gotFocusResume" LostFocus="lostFocusResume" Name="TextBoxresume"></TextBox>
+                <TextBox Text="Note" GotFocus="gotFocusNote" LostFocus="lostFocusNote" Name="TextBoxnote"></TextBox>
+                <toolkit:TimePicker Name="timePickerDuree"></toolkit:TimePicker>
+                <TextBlock Text="Genres"></TextBlock>
+                <ListBox x:Name="BoxGenres" SelectionMode="Multiple" Margin="10" ItemsSource="{Binding Genres}" Height="80" Background="Green" />
+                <TextBlock Text="Acteurs"></TextBlock>
+                <ListBox x:Name="BoxActeurs" SelectionMode="Multiple" Margin="10" ItemsSource="{Binding Acteurs}" Height="80" Background="Green" />
+                <TextBlock Text="Réalisateurs"></TextBlock>
+                <ListBox x:Name="BoxRealisateurs" Margin="10" SelectionMode="Multiple" ItemsSource="{Binding Realisateurs}" Height="80" Background="Green" />
+                <Button Tap="Take_photo">Prendre photo Affiche film</Button>
+                <Button Tap="click_ValidationAjoutFilm">Valider</Button>
+
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,52 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="WP7Filmographie.DetailRealisateur"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
+    xmlns:my="clr-namespace:WP7Filmographie"
+    shell:SystemTray.IsVisible="True"
+    Loaded="detail_réalisateur_loaded">
+
+    <!--LayoutRoot est la grille racine où tout le contenu de la page est placé-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.Resources>
+            <my:ImageSourceConverter x:Key="imageSourceConverter"/>
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contient le nom de l'application et le titre de la page-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="Filmographie" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Text="Réalisateur" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1">
+            <Viewbox Grid.RowSpan="3" Margin="10" Height="150" Width="100" >
+                <Image Source="{Binding Image,Converter={StaticResource imageSourceConverter}}"/>
+            </Viewbox>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock  Text="Nom : "></TextBlock>
+                <TextBlock  Text="{Binding Nom, FallbackValue=Nom Réalisateur}"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="1">
+                <TextBlock  Text="Prénom : "></TextBlock>
+                <TextBlock  Text="{Binding Prenom,FallbackValue=Prénom}"></TextBlock>
+            </StackPanel>
+            <Button Click="click_films">Films</Button>
+        </StackPanel>
+    </Grid>
+ 
+   
+
+</phone:PhoneApplicationPage>

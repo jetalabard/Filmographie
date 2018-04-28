@@ -1,0 +1,13 @@
+U:\Windows_Phone\Filmographie\Filmographie\obj\Debug\WP7Filmographie.csprojResolveAssemblyReference.cache
+U:\Windows_Phone\Filmographie\Filmographie\obj\Debug\App.g.i.cs
+U:\Windows_Phone\Filmographie\Filmographie\obj\Debug\MainPage.g.i.cs
+U:\Windows_Phone\Filmographie\Filmographie\obj\Debug\WP7Filmographie.g.resources
+U:\Windows_Phone\Filmographie\Filmographie\Bin\Debug\ApplicationIcon.png
+U:\Windows_Phone\Filmographie\Filmographie\Bin\Debug\Background.png
+U:\Windows_Phone\Filmographie\Filmographie\Bin\Debug\WP7Filmographie.dll
+U:\Windows_Phone\Filmographie\Filmographie\Bin\Debug\WP7Filmographie.pdb
+U:\Windows_Phone\Filmographie\Filmographie\Bin\Debug\AppManifest.xaml
+U:\Windows_Phone\Filmographie\Filmographie\Bin\Debug\Filmographie.xap
+U:\Windows_Phone\Filmographie\Filmographie\obj\Debug\WP7Filmographie.dll
+U:\Windows_Phone\Filmographie\Filmographie\obj\Debug\WP7Filmographie.pdb
+U:\Windows_Phone\Filmographie\Filmographie\obj\Debug\XapCacheFile.xml

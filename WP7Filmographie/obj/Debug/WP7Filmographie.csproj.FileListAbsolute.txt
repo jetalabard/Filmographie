@@ -1,0 +1,63 @@
+U:\Windows_Phone\Filmographie\WP7Filmographie\Bin\Debug\ApplicationIcon.png
+U:\Windows_Phone\Filmographie\WP7Filmographie\Bin\Debug\Background.png
+U:\Windows_Phone\Filmographie\WP7Filmographie\Bin\Debug\WP7Filmographie.dll
+U:\Windows_Phone\Filmographie\WP7Filmographie\Bin\Debug\WP7Filmographie.pdb
+U:\Windows_Phone\Filmographie\WP7Filmographie\Bin\Debug\AppManifest.xaml
+U:\Windows_Phone\Filmographie\WP7Filmographie\Bin\Debug\WP7Filmographie.xap
+U:\Windows_Phone\Filmographie\WP7Filmographie\obj\Debug\App.g.i.cs
+U:\Windows_Phone\Filmographie\WP7Filmographie\obj\Debug\MainPage.g.i.cs
+U:\Windows_Phone\Filmographie\WP7Filmographie\obj\Debug\WP7Filmographie.g.resources
+U:\Windows_Phone\Filmographie\WP7Filmographie\obj\Debug\WP7Filmographie.dll
+U:\Windows_Phone\Filmographie\WP7Filmographie\obj\Debug\WP7Filmographie.pdb
+U:\Windows_Phone\Filmographie\WP7Filmographie\obj\Debug\XapCacheFile.xml
+U:\Windows_Phone\Filmographie\WP7Filmographie\Bin\Debug\ManagerXMLWP7.dll
+U:\Windows_Phone\Filmographie\WP7Filmographie\Bin\Debug\Metier.dll
+U:\Windows_Phone\Filmographie\WP7Filmographie\Bin\Debug\PersistanceXML.dll
+U:\Windows_Phone\Filmographie\WP7Filmographie\Bin\Debug\DefaultData.dll
+U:\Windows_Phone\Filmographie\WP7Filmographie\Bin\Debug\Metier.pdb
+U:\Windows_Phone\Filmographie\WP7Filmographie\Bin\Debug\ManagerXMLWP7.pdb
+U:\Windows_Phone\Filmographie\WP7Filmographie\Bin\Debug\PersistanceXML.pdb
+U:\Windows_Phone\Filmographie\WP7Filmographie\Bin\Debug\DefaultData.pdb
+U:\Windows_Phone\Filmographie\WP7Filmographie\obj\Debug\WP7Filmographie.csprojResolveAssemblyReference.cache
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\Bin\Debug\ApplicationIcon.png
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\Bin\Debug\Background.png
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\Bin\Debug\WP7Filmographie.dll
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\Bin\Debug\WP7Filmographie.pdb
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\Bin\Debug\AppManifest.xaml
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\Bin\Debug\WP7Filmographie.xap
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\Bin\Debug\ManagerXMLWP7.dll
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\Bin\Debug\Metier.dll
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\Bin\Debug\PersistanceXML.dll
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\Bin\Debug\DefaultData.dll
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\Bin\Debug\Microsoft.Phone.Controls.dll
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\Bin\Debug\Metier.pdb
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\Bin\Debug\ManagerXMLWP7.pdb
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\Bin\Debug\PersistanceXML.pdb
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\Bin\Debug\DefaultData.pdb
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\Bin\Debug\Microsoft.Phone.Controls.xml
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\obj\Debug\WP7Filmographie.csprojResolveAssemblyReference.cache
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\obj\Debug\App.g.i.cs
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\obj\Debug\MainPage.g.i.cs
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\obj\Debug\WP7Filmographie.g.resources
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\obj\Debug\WP7Filmographie.dll
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\obj\Debug\WP7Filmographie.pdb
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\obj\Debug\XapCacheFile.xml
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\obj\Debug\UserControlFilm.g.i.cs
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\obj\Debug\PageListeFilms.g.i.cs
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\obj\Debug\ErrorPage.g.i.cs
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\obj\Debug\DetailFilm.g.i.cs
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\obj\Debug\ListeActeurs.g.i.cs
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\obj\Debug\ListeRealisateurs.g.i.cs
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\obj\Debug\UserControlPersonne.g.i.cs
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\obj\Debug\DetailActeur.g.i.cs
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\obj\Debug\Connexion.g.i.cs
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\obj\Debug\Inscription.g.i.cs
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\obj\Debug\Parametres.g.i.cs
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\obj\Debug\DetailRealisateur.g.i.cs
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\obj\Debug\UserControlGenre.g.i.cs
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\obj\Debug\ListeGenres.g.i.cs
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\obj\Debug\Ajout.g.i.cs
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\obj\Debug\AjoutFilm.g.i.cs
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\obj\Debug\AjoutPersonne.g.i.cs
+U:\Windows Phone\Filmographie\Filmographie\WP7Filmographie\obj\Debug\AjoutGenre.g.i.cs

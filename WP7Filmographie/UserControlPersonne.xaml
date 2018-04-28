@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="WP7Filmographie.UserControlPersonne"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    xmlns:my="clr-namespace:WP7Filmographie"
+    x:Name="root">
+
+    <Grid Background="Transparent">
+        <Grid.Resources>
+            <my:ImageSourceConverter x:Key="imageSourceConverter"/>
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center">
+            <TextBlock  Grid.Column="1" Grid.Row="0" Text="{Binding Nom, ElementName=root, FallbackValue=Nom}" Margin="20"></TextBlock>
+            <TextBlock  Text="{Binding Prénom, ElementName=root, FallbackValue=Prénom}"  Margin="20"></TextBlock>
+        </StackPanel>
+        
+        <Viewbox Grid.RowSpan="3" Margin="10" Height="150" Width="100" >
+            <Image Source="{Binding Source, Converter={StaticResource imageSourceConverter}, ConverterParameter=default.jpg, ElementName=root, FallbackValue=default.jpg}"/>
+        </Viewbox>
+    </Grid>
+</UserControl>

@@ -1,0 +1,5 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="WP7Filmographie" EntryPointType="Filmographie.App" RuntimeVersion="4.7.50308.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="WP7Filmographie" Source="WP7Filmographie.dll" />
+  </Deployment.Parts>
+</Deployment>

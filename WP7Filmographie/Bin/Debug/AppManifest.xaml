@@ -1,0 +1,11 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="WP7Filmographie" EntryPointType="WP7Filmographie.App" RuntimeVersion="4.7.50308.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="WP7Filmographie" Source="WP7Filmographie.dll" />
+    <AssemblyPart x:Name="ManagerXMLWP7" Source="ManagerXMLWP7.dll" />
+    <AssemblyPart x:Name="Metier" Source="Metier.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls.Toolkit" Source="Microsoft.Phone.Controls.Toolkit.dll" />
+    <AssemblyPart x:Name="PersistanceXML" Source="PersistanceXML.dll" />
+    <AssemblyPart x:Name="DefaultData" Source="DefaultData.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls" Source="Microsoft.Phone.Controls.dll" />
+  </Deployment.Parts>
+</Deployment>

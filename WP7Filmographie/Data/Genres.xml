@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<genres>
+  <genre nom="Science Fiction">
+    <description>
+      Genre développant un univers souvent basé sur le monde réel, puis décalé dans un contexte spatiale ou temporel différent.
+    </description>
+    <genre nom="Comédie">
+      <description>ça fait rire :)</description>
+    </genre>
+    <genre nom="Documentaire">
+      <description>Film qui nous apprend pleins de choses très très intéressantes.</description>
+    </genre>
+  </genre>
+  <genre nom="Drame">
+    <description>
+      Genre dont l'histoire tourne autour de faits à caractères tragiques.
+    </description>
+  </genre>
+  <genre nom="Action">
+    <description>
+      Genre qui mise sur l'enchaînement des péripéties.
+    </description>
+  </genre>
+  <genre nom="Fantastique">
+    <description>
+      Genre regroupant des films faisant appel au surnaturel, à l'horreur, ou aux monstres.
+    </description>
+  </genre>
+  <genre nom="Horreur">
+    <description>
+      Genre cherchant à jouer sur les peurs du spectateur. Cette peur peut être attisée par des scènes violentes (slasher, film gore…).
+    </description>
+  </genre>
+  <genre nom="Thriller">
+    <description>
+      Genre  qui cherche à faire ressentir du suspense et une certaine tension à l'idée de ce qui pourrait arriver au(x) personnage(s) du film.
+    </description>
+  </genre>
+  <genre nom="Animation">
+    <description>
+      Genre de films qui sont réalisés avec des dessins ou de l'animation 3D.
+    </description>
+  </genre>
+</genres>

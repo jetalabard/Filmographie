@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EC453EA6-E36B-41CD-97E0-C354477D6FFA}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WP7Filmographie</RootNamespace>
+    <AssemblyName>WP7Filmographie</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <TargetFrameworkProfile>WindowsPhone71</TargetFrameworkProfile>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>WP7Filmographie.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>WP7Filmographie.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Phone" />
+    <Reference Include="Microsoft.Phone.Controls.Toolkit, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b772ad94eb9ca604, processorArchitecture=MSIL">
+      <HintPath>..\..\..\ExemplesWindowsPhone_2015\ExemplesWindowsPhone_2015\ext\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Phone.Interop" />
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Xml" />
+    <Reference Include="mscorlib.extensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ajout.xaml.cs">
+      <DependentUpon>Ajout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AjoutFilm.xaml.cs">
+      <DependentUpon>AjoutFilm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AjoutGenre.xaml.cs">
+      <DependentUpon>AjoutGenre.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AjoutPersonne.xaml.cs">
+      <DependentUpon>AjoutPersonne.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Connexion.xaml.cs">
+      <DependentUpon>Connexion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DetailActeur.xaml.cs">
+      <DependentUpon>DetailActeur.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DetailFilm.xaml.cs">
+      <DependentUpon>DetailFilm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DetailRealisateur.xaml.cs">
+      <DependentUpon>DetailRealisateur.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorPage.xaml.cs">
+      <DependentUpon>ErrorPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ImageSourceConverter.cs" />
+    <Compile Include="Inscription.xaml.cs">
+      <DependentUpon>Inscription.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListeActeurs.xaml.cs">
+      <DependentUpon>ListeActeurs.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListeGenres.xaml.cs">
+      <DependentUpon>ListeGenres.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListeRealisateurs.xaml.cs">
+      <DependentUpon>ListeRealisateurs.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PageListeFilms.xaml.cs">
+      <DependentUpon>PageListeFilms.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Parametres.xaml.cs">
+      <DependentUpon>Parametres.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControlGenre.xaml.cs">
+      <DependentUpon>UserControlGenre.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlPersonne.xaml.cs">
+      <DependentUpon>UserControlPersonne.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlFilm.xaml.cs">
+      <DependentUpon>UserControlFilm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VM\ManagerVM.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="Ajout.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AjoutFilm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AjoutGenre.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AjoutPersonne.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Connexion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DetailActeur.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DetailFilm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DetailRealisateur.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ErrorPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Inscription.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListeActeurs.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListeGenres.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListeRealisateurs.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageListeFilms.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Parametres.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlGenre.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlPersonne.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlFilm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ApplicationIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Background.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Data\filmotheque.xml" />
+    <Resource Include="Data\Genres.xml" />
+    <Resource Include="Data\personnes.xml">
+      <SubType>Designer</SubType>
+    </Resource>
+    <Resource Include="Data\Image\aristochats.jpg" />
+    <Resource Include="Data\Image\Angela_Kinsey.jpg" />
+    <Resource Include="Data\Image\brian_baumgartner.jpg" />
+    <Resource Include="Data\Image\amont_marcel.jpg" />
+    <Resource Include="Data\Image\christian_clavier.jpg" />
+    <Resource Include="Data\Image\clint_eastwood.jpg" />
+    <Resource Include="Data\Image\DDLM.jpg" />
+    <Resource Include="Data\Image\FG.jpg" />
+    <Resource Include="Data\Image\default.jpg" />
+    <Resource Include="Data\Image\FM.jpg" />
+    <Resource Include="Data\Image\IFSLSR.jpg" />
+    <Resource Include="Data\Image\LLV.jpg" />
+    <Resource Include="Data\Image\john_krasinski.jpg" />
+    <Resource Include="Data\Image\Kate_Flannery.jpg" />
+    <Resource Include="Data\Image\Leslie_David_Baker.jpg" />
+    <Resource Include="Data\Image\Rainn_Wilson.jpg" />
+    <Resource Include="Data\Image\steve_carell.jpg" />
+    <Resource Include="Data\Image\george_lucas.jpg" />
+    <Resource Include="Data\Image\gérard darmon.jpg" />
+    <Resource Include="Data\Image\gérard_depardieu.jpg" />
+    <Resource Include="Data\Image\jamel_debouzze.jpg" />
+    <Resource Include="Data\Image\james_cameron.jpg" />
+    <Resource Include="Data\Image\jennifer_aniston.jpg" />
+    <Resource Include="Data\Image\paul-walker.jpg" />
+    <Resource Include="Data\Image\quentin_tarantino.jpg" />
+    <Resource Include="Data\Image\steven_spielberg.jpg" />
+    <Resource Include="Data\Image\vin_diesel.jpg" />
+    <Content Include="SplashScreenImage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Filmographie_lib\Metier.csproj">
+      <Project>{8271C5C2-0691-4010-BB99-8638AD1858B3}</Project>
+      <Name>Metier</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ManagerXMLWP7\ManagerXMLWP7.csproj">
+      <Project>{D134D5EA-58B8-46A8-B8B3-24054B7A88A8}</Project>
+      <Name>ManagerXMLWP7</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PersistanceXML\PersistanceXML.csproj">
+      <Project>{03B99C1D-296D-4001-BB51-1CB21BE63D40}</Project>
+      <Name>PersistanceXML</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+</Project>

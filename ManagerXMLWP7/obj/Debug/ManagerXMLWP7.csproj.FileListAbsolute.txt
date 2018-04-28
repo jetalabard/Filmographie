@@ -1,0 +1,22 @@
+U:\Windows_Phone\Filmographie\ManagerXMLWP7\obj\Debug\ManagerXMLWP7.csprojResolveAssemblyReference.cache
+U:\Windows_Phone\Filmographie\ManagerXMLWP7\Bin\Debug\ManagerXMLWP7.dll
+U:\Windows_Phone\Filmographie\ManagerXMLWP7\Bin\Debug\ManagerXMLWP7.pdb
+U:\Windows_Phone\Filmographie\ManagerXMLWP7\Bin\Debug\DefaultData.dll
+U:\Windows_Phone\Filmographie\ManagerXMLWP7\Bin\Debug\Metier.dll
+U:\Windows_Phone\Filmographie\ManagerXMLWP7\Bin\Debug\PersistanceXML.dll
+U:\Windows_Phone\Filmographie\ManagerXMLWP7\Bin\Debug\DefaultData.pdb
+U:\Windows_Phone\Filmographie\ManagerXMLWP7\Bin\Debug\Metier.pdb
+U:\Windows_Phone\Filmographie\ManagerXMLWP7\Bin\Debug\PersistanceXML.pdb
+U:\Windows_Phone\Filmographie\ManagerXMLWP7\obj\Debug\ManagerXMLWP7.dll
+U:\Windows_Phone\Filmographie\ManagerXMLWP7\obj\Debug\ManagerXMLWP7.pdb
+U:\Windows Phone\Filmographie\Filmographie\ManagerXMLWP7\Bin\Debug\ManagerXMLWP7.dll
+U:\Windows Phone\Filmographie\Filmographie\ManagerXMLWP7\Bin\Debug\ManagerXMLWP7.pdb
+U:\Windows Phone\Filmographie\Filmographie\ManagerXMLWP7\Bin\Debug\DefaultData.dll
+U:\Windows Phone\Filmographie\Filmographie\ManagerXMLWP7\Bin\Debug\Metier.dll
+U:\Windows Phone\Filmographie\Filmographie\ManagerXMLWP7\Bin\Debug\PersistanceXML.dll
+U:\Windows Phone\Filmographie\Filmographie\ManagerXMLWP7\Bin\Debug\DefaultData.pdb
+U:\Windows Phone\Filmographie\Filmographie\ManagerXMLWP7\Bin\Debug\Metier.pdb
+U:\Windows Phone\Filmographie\Filmographie\ManagerXMLWP7\Bin\Debug\PersistanceXML.pdb
+U:\Windows Phone\Filmographie\Filmographie\ManagerXMLWP7\obj\Debug\ManagerXMLWP7.csprojResolveAssemblyReference.cache
+U:\Windows Phone\Filmographie\Filmographie\ManagerXMLWP7\obj\Debug\ManagerXMLWP7.dll
+U:\Windows Phone\Filmographie\Filmographie\ManagerXMLWP7\obj\Debug\ManagerXMLWP7.pdb

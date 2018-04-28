@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<filmotheque>
+  <film titre="Les dents de la mer" duree="PT12H20M30S" note="5">
+    <resume>A quelques jours du début de la saison estivale...</resume>
+    <genres>
+      <genre>Drame</genre>
+      <genre>Action</genre>
+    </genres>
+    <realisateurs>
+      <Réalisateur nom="Cameron" prenom="James" />
+    </realisateurs>
+    <acteurs>
+      <Acteur nom="Clavier" prenom="Christian" />
+      <Acteur nom="Carell" prenom="Steve" />
+      <Acteur nom="Depardieu" prenom="Gérard"/>
+    </acteurs>
+    <image>DDLM.jpg</image>
+    <film titre="Le fouetteur masqué" duree="P2D" note="10">
+      <resume>Il fouette plus vite que son ombre...</resume>
+      <genres>
+        <genre>Action</genre>
+        <genre>Horreur</genre>
+      </genres>
+      <realisateurs>
+        <Réalisateur nom="Chevaldonné" prenom="Marc" />
+      </realisateurs>
+      <acteurs>
+        <Acteur nom="Clavier" prenom="Christian" />
+        <Acteur nom="Diesel" prenom="Vin" />
+      </acteurs>
+      <image>FM.jpg</image>
+    </film>
+  </film>
+  <film titre="Les aristochats" duree="PT12H20M30S" note="8">
+    <resume>Une bande de petits chats qui ...</resume>
+    <genres>
+      <genre>Animation</genre>
+    </genres>
+    <realisateurs>
+      <Réalisateur nom="Cameron" prenom="James" />
+    </realisateurs>
+    <acteurs>
+      <Acteur nom="Aniston" prenom="Jennifer" />
+      <Acteur nom="Carell" prenom="Steve" />
+    </acteurs>
+    <image>aristochats.jpg</image>
+  </film>
+  <film titre="Il faut sauver le soldat Ryan" duree="PT12H20M30S" note="6">
+    <resume>En fait c'était un instituteur...</resume>
+    <genres>
+      <genre>Action</genre>
+    </genres>
+    <realisateurs>
+      <Réalisateur nom="Lucas" prenom="George" />
+    </realisateurs>
+    <acteurs>
+      <Acteur nom="Amont" prenom="Marcel" />
+      <Acteur nom="Diesel" prenom="Vin"/>
+      <Acteur nom="Walker" prenom="Paul"/>
+    </acteurs>
+    <image>IFSLSR.JPG</image>
+  </film>
+  <film titre="Forest Gump" duree="PT12H20M30S" note="8">
+    <resume>Un homme qui court vite...</resume>
+    <genres>
+      <genre>Thriller</genre>
+    </genres>
+    <realisateurs>
+      <Réalisateur nom="Cameron" prenom="James" />
+    </realisateurs>
+    <acteurs>
+      <Acteur nom="Aniston" prenom="Jennifer" />
+      <Acteur nom="Carell" prenom="Steve" />
+    </acteurs>
+    <image>FG.jpg</image>
+  </film>
+  <film titre="La ligne verte" duree="PT12H20M30S" note="4">
+    <resume>Dans une prison, un grand homme...</resume>
+    <genres>
+      <genre>Fantastique</genre>
+      <genre>Thriller</genre>
+    </genres>
+    <realisateurs>
+      <Réalisateur nom="Cameron" prenom="James" />
+      <Réalisateur nom="Lucas" prenom="George" />
+    </realisateurs>
+    <acteurs>
+      <Acteur nom="Aniston" prenom="Jennifer" />
+      <Acteur nom="Depardieu" prenom="Gérard" />
+      <Acteur nom="Carell" prenom="Steve" />
+      <Acteur nom="Debouze" prenom="Jamel" />
+    </acteurs>
+    <image>LLV.jpg</image>
+  </film>
+</filmotheque>

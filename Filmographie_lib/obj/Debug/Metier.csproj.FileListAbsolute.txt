@@ -1,0 +1,8 @@
+U:\Windows_Phone\Filmographie\Filmographie_lib\Bin\Debug\Metier.dll
+U:\Windows_Phone\Filmographie\Filmographie_lib\Bin\Debug\Metier.pdb
+U:\Windows_Phone\Filmographie\Filmographie_lib\obj\Debug\Metier.dll
+U:\Windows_Phone\Filmographie\Filmographie_lib\obj\Debug\Metier.pdb
+U:\Windows Phone\Filmographie\Filmographie\Filmographie_lib\Bin\Debug\Metier.dll
+U:\Windows Phone\Filmographie\Filmographie\Filmographie_lib\Bin\Debug\Metier.pdb
+U:\Windows Phone\Filmographie\Filmographie\Filmographie_lib\obj\Debug\Metier.dll
+U:\Windows Phone\Filmographie\Filmographie\Filmographie_lib\obj\Debug\Metier.pdb

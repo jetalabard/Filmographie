@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<personnes>
+  <personne nom="Cameron" prenom="James" type="Réalisateur">
+    <image>james_cameron.jpg</image>
+    <films />
+  </personne>
+  <personne nom="Spielberg" prenom="Steven" type="Réalisateur">
+    <image>steven_spielberg.jpg</image>
+    <films />
+  </personne>
+  <personne nom="Tarantino" prenom="Quentin" type="Réalisateur">
+    <image>quentin_tarantino.jpg</image>
+    <films />
+  </personne>
+  <personne nom="Lucas" prenom="George" type="Réalisateur">
+    <image>george_lucas.jpg</image>
+    <films />
+  </personne>
+  <personne nom="Eastwood" prenom="Clint" type="Réalisateur">
+    <image>clint_eastwood.jpg</image>
+    <films />
+  </personne>
+  <personne nom="Aniston" prenom="Jennifer" type="Acteur">
+    <image>jennifer_aniston.jpg</image>
+    <films />
+  </personne>
+  <personne nom="Darmon" prenom="Gérard" type="Acteur">
+    <image>gérard darmon.jpg</image>
+    <films />
+  </personne>
+  <personne nom="Clavier" prenom="Christian" type="Acteur">
+    <image>christian_clavier.jpg</image>
+    <films />
+  </personne>
+  <personne nom="Depardieu" prenom="Gérard" type="Acteur">
+    <image>gérard_depardieu.jpg</image>
+    <films />
+  </personne>
+  <personne nom="Carell" prenom="Steve" type="Acteur">
+    <image>steve_carell.jpg</image>
+    <films />
+  </personne>
+  <personne nom="Debouze" prenom="Jamel" type="Acteur">
+    <image>jamel_debouzze.jpg</image>
+    <films />
+  </personne>
+  <personne nom="Amont" prenom="Marcel" type="Acteur">
+    <image>amont_marcel.jpg</image>
+    <films />
+  </personne>
+  <personne nom="Diesel" prenom="Vin" type="Acteur">
+    <image>vin_diesel.jpg</image>
+    <films />
+  </personne>
+  <personne nom="Walker" prenom="Paul" type="Acteur">
+    <image>paul-walker.jpg</image>
+    <films />
+  </personne>
+  <personne nom="Talabard" prenom="Jérémy" type="Normal">
+    <image>default.jpg</image>
+    <films>
+      <film>Le fouetteur masqué</film>
+    </films>
+  </personne>
+  <personne nom="Septier" prenom="Quentin" type="Normal">
+    <image>default.jpg</image>
+    <films />
+  </personne>
+  <personne nom="Chevaldonné" prenom="Marc" type="Réalisateur">
+    <image>default.jpg</image>
+    <films />
+  </personne>
+</personnes>

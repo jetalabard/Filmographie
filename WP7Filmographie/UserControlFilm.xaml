@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="WP7Filmographie.UserControlFilm"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:my="clr-namespace:WP7Filmographie"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+              
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+             Name="root">
+        
+        <Grid Background="Transparent">
+        <Grid.Resources>
+            <my:ImageSourceConverter x:Key="imageSourceConverter"/>
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+        <TextBlock  Grid.Column="1" Grid.Row="0" Text="{Binding Titre, ElementName=root, FallbackValue=Forest Gump}"></TextBlock>
+        <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="1">
+            <TextBlock  Text="Note : "></TextBlock>
+            <TextBlock  Text="{Binding Note, ElementName=root, FallbackValue=10}"></TextBlock>
+        </StackPanel>
+        <Viewbox Grid.RowSpan="3" Margin="10" Height="150" Width="100" >
+            <Image Source="{Binding Source, Converter={StaticResource imageSourceConverter}, ConverterParameter=default.jpg, ElementName=root, FallbackValue=default.jpg}"/>
+        </Viewbox>
+    </Grid>
+</UserControl>
